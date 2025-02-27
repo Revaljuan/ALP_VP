@@ -3,7 +3,7 @@ import 'package:my_async/api_service.dart';
 
 
 Future<void> main() async {
-  final String apiKey = 'YOUR_API_KEY'; // Ganti dengan API Key Anda
+  final String apiKey = 'YOUR_API_KEY';
   final FinanceApi financeApi = FinanceApi(apiKey);
 
   print('Masukkan simbol saham (misal: AAPL untuk Apple):');
